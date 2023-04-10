@@ -1,6 +1,0 @@
-RewriteEngine On
-
-RewriteCond %{HTTP_HOST} !^www\.john-paul-polendey\.com$
-
-RewriteRule ^(.*)$ https://polendey.github.io/arts/$1 [R=301,L]
-

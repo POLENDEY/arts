@@ -15,6 +15,30 @@ body {
   background-color: #eef3f9;
 }
 
+#home {
+
+  width: 25px;
+
+  position: fixed;
+
+  top: 95%;
+
+  left: 50%;
+
+  transform: translate(-50%,0);
+
+  opacity: 1;
+
+  transition: opacity 0.3s ease-in-out;
+
+}
+
+#home.hide {
+
+  opacity: 0;
+
+}
+
 path, rect, polygon {
   fill: #eef3f9;
 }

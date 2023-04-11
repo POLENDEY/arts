@@ -97,7 +97,7 @@ path, rect, polygon {
   overflow: hidden;
   //padding-top: 1.5%;
   
-  background-image: url("https://live.staticflickr.com/65535/52792517232_68f7b035be_b.jpg");
+  //background-image: url("https://live.staticflickr.com/65535/52792517232_68f7b035be_b.jpg");
 
   /* Set a specific height */
   /*min-height: 100px; */
@@ -117,7 +117,7 @@ video {
   align-items: center;
   overflow: hidden;
   animation-name: fadeOut;
-  animation-duration: 5s;
+  //animation-duration: 5s;
   animation-fill-mode: forwards;
   position: absolute;
 }

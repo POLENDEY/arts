@@ -57,3 +57,23 @@ function closeLightBox() {
     }
 }
 lightBoxContainer.addEventListener("click", closeLightBox);
+
+var prevScrollpos = window.pageYOffset;
+
+window.onscroll = function() {
+
+  var currentScrollPos = window.pageYOffset;
+
+  if (prevScrollpos > currentScrollPos) {
+
+    document.querySelector("#home").classList.remove("hide");
+
+  } else {
+
+    document.querySelector("#home").classList.add("hide");
+
+  }
+
+  prevScrollpos = currentScrollPos;
+
+}
